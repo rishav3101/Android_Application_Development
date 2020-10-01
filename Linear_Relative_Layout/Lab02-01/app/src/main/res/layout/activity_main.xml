@@ -9,10 +9,9 @@
     android:background = "#333e4f"
     android:orientation="vertical">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/icon"
@@ -20,14 +19,16 @@
             android:layout_height="50dp"
             android:src = "@drawable/icon"
             android:layout_marginTop = "30px"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Layouts"
             android:layout_marginTop="15dp"
+            android:layout_marginLeft="90dp"
             android:textColor="#cfcedb"
             android:textSize="30sp"/>
-    </LinearLayout>
+    </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
