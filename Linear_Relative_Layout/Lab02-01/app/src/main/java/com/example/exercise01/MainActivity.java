@@ -104,6 +104,10 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(context, "Your password has less than 6 letters",Toast.LENGTH_SHORT).show();
                     passWord_Input.requestFocus();
                 }
+				
+				else{
+					Toast.makeText(context, "Your password is remembered", Toast.LENGTH_SHORT).show();
+				}
             }
         });
 
